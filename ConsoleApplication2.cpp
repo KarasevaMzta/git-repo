@@ -13,6 +13,5 @@ int main()
 		p_darr[i] = i;
 		cout << "Value of " << i << " element is " << p_darr[i] << endl;
 	}
-	delete[] p_darr; // очистка памяти
 	return 0;
 }
